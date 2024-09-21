@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Helvetica";
+  font-style: normal;
+  src: local("Helvetica"), url("Helvetica.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contiener {
+  padding: 10px 40px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+a:hover {
+  color: #117fe3;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button {
+  background-color: #117fe3;
+  color: white;
+}
+@media (max-width: 1246px) {
+  .nn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+}
+
+header {
+  top: 0px;
+  z-index: 999;
+  position: sticky;
+  background-color: white;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  
+}
+.gg{
+    background-image: url(../img/r1.png);
+}
+.g1{
+    background-image: url(../img/r2.png);
+}
+.g2{
+    background-image: url(../img/r3.png);
+}.g3{
+    background-image: url(../img/r4.png);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f6f8fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.swiper-slide img {
+  display: block;
+    width: 50%;
+    height: 50%;
+  object-fit: cover;
+}
+
+.bg {
+  background-image: url(/img/balgarka.png);
+  padding: 40px 20px;
+}
+@media (max-width:879px) {
+    .f{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+@media (max-width:859px) {
+    .f{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+@media (max-width: 510px) {
+  .bg h3 {
+    font-size: 30px;
+  }
+  .bg button {
+    width: 220px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1205px) {
+  .m {
+    display: none;
+  }
+}
