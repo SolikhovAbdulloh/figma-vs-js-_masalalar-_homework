@@ -610,6 +610,10 @@ video {
   height: 90px;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .w-\[103px\] {
   width: 103px;
 }
@@ -640,6 +644,10 @@ video {
 
 .w-\[502px\] {
   width: 502px;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .flex-col {
@@ -962,10 +970,6 @@ header {
 .bg {
   background-image: url(/img/balgarka.png);
   padding: 40px 20px;
-}
-
-.b{
-  background: url(../img/yellow.argument.png);
 }
 
 @media (max-width:640px){

@@ -89,9 +89,7 @@ header {
   background-image: url(/img/balgarka.png);
   padding: 40px 20px;
 }
-.b{
-  background: url(../img/yellow.argument.png);
-}
+
 @media (max-width:640px){
   .v{
     display: grid;
