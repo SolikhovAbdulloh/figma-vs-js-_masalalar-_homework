@@ -642,12 +642,12 @@ video {
   width: 390px;
 }
 
-.w-\[502px\] {
-  width: 502px;
-}
-
 .w-\[50\%\] {
   width: 50%;
+}
+
+.w-\[502px\] {
+  width: 502px;
 }
 
 .flex-col {
@@ -668,6 +668,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-1 {
@@ -849,6 +853,10 @@ video {
 
 .leading-\[94\%\] {
   line-height: 94%;
+}
+
+.leading-\[130\%\] {
+  line-height: 130%;
 }
 
 .text-\[\#003b73\] {
